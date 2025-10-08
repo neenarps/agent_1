@@ -9,5 +9,9 @@ Here are the guidelines you should use to analyse a stock.
 6. Look for products where the company has the highest or the second highest marketshare. Lets us call them product X and product Y respectively.
 7. For product X and Y, find out if recently demand for the products has increased, and why.
 8. Once you find the reason, find out if the reason for the increased sale is seasonal or a long lasting trend.
-9. If it is seasonal, no further investigation is required. the stock is a sell if owned or need not be bought at this time.
-10. 
+9. To find out if it is a seasonal trend, look for similar patterns of price changes either monthly, quarterly (every 3 months) or half-yearly (every 6 months).
+10. Any growth in sales is not seasonal, if it is caused due to a reason that does not occur at a regular interval like monthly, quarterly or half-yearly. The reason for growth has to have an impact that stretches beyond a 6 month period. An example of such scenario is a construction boom that causes steel stocks to rise as demand for steel will rise during construction. Construction being a slow process that can take a year or more. 
+10. If it is seasonal, no further investigation is required. the stock is a sell if owned or need not be bought at this time.
+11. If we have determined that the sales growth is not seasonal. Let us also investigate two more aspects of this sales growth.
+    1. What is the general process of producing this product?
+    2. Who are the market leaders that provide the ingredients or services required to produce this product.
