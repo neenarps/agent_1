@@ -15,3 +15,27 @@ Here are the guidelines you should use to analyse a stock.
 11. If we have determined that the sales growth is not seasonal. Let us also investigate two more aspects of this sales growth.
     1. What is the general process of producing this product?
     2. Who are the market leaders that provide the ingredients or services required to produce this product.
+    Identify the ingredients that are required to manufacture and deliver the product. In some cases, there may also be a specialized process that could be outsourced, in that case we want to know that specialized process as well. For each of these manufacturing process ingredients, go through the entire process above, starting with identifying the market leader for each of these ingredients.
+12. Iterate through this process for two levels at most. So if we start with one stock, say ABC. Identify all of ABC's products and services that hold the leading market share in a market or are second in terms of marketshare. Identify the products or raw materials that are utilised to produce ABC's products and who are the market leaders for those products, and continue with the same process one more time for these input ingredients, or raw materials for manufacturing ABC's product.
+13. Once you have ABC's market leading product or products, and the companies that are market leaders in supplying raw material or input products and so forth. share this in the form of a JSON like the one below:
+    {
+        "LEVEL1": {
+            "STOCK": "ABC",
+            "PRODUCT1": "something1"
+        },
+        "LEVEL2": {
+            "STOCK": "DEF",
+            "PRODUCT1": "something2",
+            "PRODUCT2": "something3"
+        },
+        "LEVEL3": {
+            STOCK: "PQR",
+            "PRODUCT1": "something4",
+            "PRODUCT2": "something5",
+            "PRODUCT3": "something6",
+            "PRODUCT4": "something7"
+        }
+    }
+
+    The above JSON means that ABC produces something1, which requires something2 and something3, which in turn requires something4, something5, something6 and something7.
+
